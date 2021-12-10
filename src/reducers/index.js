@@ -9,11 +9,11 @@ import {
 
 export const initialState = {
   smurfs: [{
-    id: 1,
-    name: 'Qua',
-    position: 'Member',
-    nickname: 'Q',
-    description: 'Writing some code!!'
+    id: '',
+    name: '',
+    position: '',
+    nickname: '',
+    description: ''
   }],
   isLoading: false,
   error: ''
