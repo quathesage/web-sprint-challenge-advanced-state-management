@@ -124,9 +124,12 @@ Connect this component to the error state slice, setError and addSmurf actions. 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Add your answers below.
 
 1. What problem does the context API help solve?
+   Context API allows you to pass props to components without prop drilling.
 
 2. In your own words, describe `actions`, `reducers` and the `store` and their role in Redux. What does each piece do? Why is the store known as a 'single source of truth' in a redux application?
+   Reducers create, modify, and removes states. Actions are the only source of information for the store to be updated, it is passed into the reducer. The store contains the true state for the entire application.
 
-3. What does `redux-thunk` allow us to do? How does it change our `action-creators`?
+3. What does `redux-thunk` allow us to do? How does it change our `action-creators`?Thunk redux allow us to use asychronous actions.
 
 4. What is your favorite state management system you've learned and this sprint? Please explain why!
+   I enjoy redux because of how it allows you to set state in one place and to be able to access it throughout the entire app.
