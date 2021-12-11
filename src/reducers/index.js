@@ -32,7 +32,7 @@ const reducer = (state = initialState, action) => {
       return({
         ...state,
         smurf: action.payload,
-        isFetching: false,
+        isLoading: false,
         error: ''
       });
     case FETCH_FAIL :
