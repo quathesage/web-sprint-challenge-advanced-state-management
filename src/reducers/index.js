@@ -52,7 +52,7 @@ const reducer = (state = initialState, action) => {
       return ({
         ...state,
         error: action.payload
-      })
+      });
     default :
       return state;
   }
